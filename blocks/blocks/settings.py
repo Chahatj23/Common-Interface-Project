@@ -98,7 +98,7 @@ DATABASES = {
         'PORT': os.environ.get('SQL_PORT', '3306'),
         'USER': os.environ.get('SQL_USER', 'blocks'),
         'PASSWORD': os.environ.get('SQL_PASSWORD', 'stereo@129'),
-        'NAME': os.environ.get('SQL_DATABASE', 'xcosblocks'),
+        'NAME': os.environ.get('SQL_DATABASE', 'xcosblocks_test'),
     }
 }
 
